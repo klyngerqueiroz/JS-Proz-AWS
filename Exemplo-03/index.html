@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="app.js" defer
+    ></script>
+    <title>JS AddEventList</title>
+
+ <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    main{
+        display: flex;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    div#formulario{
+      
+        background-color: blueviolet;
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    h2{
+        color: #fff;
+        text-align: center;
+        font-size:1.2em;
+        padding-bottom: 25px;
+        padding-top: 40px;
+    }
+    #area, span{
+        padding-top: 10px;
+        color: #fff;
+        text-align: center;
+        
+    }
+    form > input[type=email], [type=text]{
+        width: 75%;
+        height: 30px;
+    }
+
+ </style>
+</head>
+<body>
+    <h1 id="h1">0</h1>
+    <button style="border-radius: 5px; width: 50px; height: 25px; background-color: orangered;">+1</button>
+
+    <br>
+    <br>
+<main>
+    
+        <div id="formulario">
+            <h2>Cadastro Cliente</h2>
+            <form action="">
+                <label for="iname">Nome</label>
+                <input type="text" name="name" id="iname">
+                    <br>
+                    <br>
+                <label for="isenha">Email</label>
+                <input type="email" name="email" id="isenha">
+
+
+                <div id="area">
+                    <p>Mensagem</p>
+                    <textarea name="area" id="iare" cols="30" rows="10">
+                        Mensagem
+                    </textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+</main>
+    
+</body>
+</html>
