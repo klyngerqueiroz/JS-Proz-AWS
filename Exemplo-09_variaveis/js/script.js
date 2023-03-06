@@ -5,4 +5,10 @@ console.log(nome);
 
 var meuPrimeiroNome = 'klynger';
 
-console.log('meuPrimeiroNome');
+console.log(meuPrimeiroNome);
+
+let numero = 2;
+const numeros = 'inteiro';
+
+console.log(numero);
+console.log(numeros);
