@@ -1,5 +1,5 @@
 /*******Teste de variaveis*** */
-let nome = 'sobrenom';
+let nome = 'sobrenome';
 
 console.log(nome);
 
